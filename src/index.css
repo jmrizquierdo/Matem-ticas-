@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background: radial-gradient(circle at top left, #eff6ff 0%, #f8fafc 40%, #fdf4ff 100%);
+    color: #1e293b;
+  }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+.animate-wiggle {
+  animation: wiggle 1s ease-in-out infinite;
+}
+
+.kid-shadow {
+  box-shadow: 0 4px 14px 0 rgba(99, 102, 241, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+}
+
+.kid-border {
+  border-width: 2px;
+}

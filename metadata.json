@@ -1,0 +1,8 @@
+{
+  "name": "Aprende a Dividir - Aventura Matemática",
+  "description": "Juego y simulador interactivo para aprender a dividir paso a paso con el método de galera, reparto visual y retos didácticos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
